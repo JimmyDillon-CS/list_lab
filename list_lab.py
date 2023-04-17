@@ -141,7 +141,7 @@ print('==================================================')
 # list needs to be as large as the biggest value in the parameter.
 def list_counts(g, max_value):
     #This will create a new list with a size of max_value filled with 0s
-    counts = [0] * max_value 
+    counts = [0] * (max_value + 1) 
     return counts
 
 print('List Count Tests')
